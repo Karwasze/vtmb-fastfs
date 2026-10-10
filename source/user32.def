@@ -1,0 +1,21 @@
+LIBRARY USER32.dll
+EXPORTS
+GetForegroundWindow@0
+GetWindowThreadProcessId@8
+SendInput@12
+SetWindowsHookExA@16
+UnhookWindowsHookEx@4
+CallNextHookEx@16
+GetMessageA@16
+PostThreadMessageA@16
+MessageBeep@4
+EnumWindows@8
+IsWindowVisible@4
+GetWindow@8
+SetForegroundWindow@4
+BringWindowToTop@4
+AttachThreadInput@12
+GetClassNameA@12
+GetWindowTextA@12
+PostMessageA@16
+MapVirtualKeyA@8
